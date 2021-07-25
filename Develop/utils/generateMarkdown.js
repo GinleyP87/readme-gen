@@ -1,24 +1,24 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+// // TODO: Create a function that returns a license badge based on which license is passed in
+// // If there is no license, return an empty string
+// function renderLicenseBadge(license) {}
 
-  // let badge;
-  // if (data.license === "MIT"){
-  //   badge = "🍕"
-  // } else {
-  //   badge = "";
-  // }
+//   // let badge;
+//   // if (data.license === "MIT"){
+//   //   badge = "🍕"
+//   // } else {
+//   //   badge = "";
+//   // }
 
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+// // TODO: Create a function that returns the license link
+// // If there is no license, return an empty string
+// function renderLicenseLink(license) {}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+// // TODO: Create a function that returns the license section of README
+// // If there is no license, return an empty string
+// function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+// // TODO: Create a function to generate markdown for README
 
 function generateMarkdown(data) {
 
@@ -61,11 +61,13 @@ function generateMarkdown(data) {
 # Title
     
 ${data.projectTitle}
-
+<br />
 
 ## Description
 
 ${data.description}
+<br />
+
 
 ## Table of Contents
 
@@ -76,13 +78,21 @@ ${data.description}
 * [Contributing](#contributing)
 * [Contact Me](#contactMe)
 
+<br />
+
+
 ## Installation
 
 ${data.installation}
 
+<br />
+
 ## Usage
 
 ${data.usage}
+
+<br />
+
 
 ## License
 
@@ -90,16 +100,27 @@ ${badge}
 <br />
 ${badgeLink}
 
+<br />
+
 ## Contributing
 
 ${data.credits}
 
-## Contact Me
+<br />
+
+## Tests
+
+${data.tests}
 
 <br />
-Check out my GitHub: [${data.username}](https://github.com/${data.username})<br />
+
+## Questions
+
+If you have any questions...
 <br />
-Email me: ${data.email}
+<br />
+Check out my GitHub: [${data.username}](https://github.com/${data.username})<br />
+E-mail me: ${data.email}
 
 `;}
 

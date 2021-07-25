@@ -6,7 +6,7 @@ const inquirer = require('inquirer');
 
 // // TODO: Create an array of questions for user input
 async function promptQuestions(){
-     inquirer.prompt([   
+    inquirer.prompt([   
         
         {
             type: "input",
@@ -36,17 +36,26 @@ async function promptQuestions(){
             type: "list",
             name: "license",
             message: "Chose a license or multiple licenses for this project: ",
-            choices: [
+            choices: 
+            [
                 "Apache",
                 "MIT",
                 "Mozilla",
-                "Open"
-            ]},
+                "Open",
+                "No License"
+            ]
+        },
 
         {
             type: "input",
             name: "credits",
             message: "Who contributed to this project?"
+        },
+
+        {
+            type: "input",
+            name: "tests",
+            message: "If you created tests, provide examples how to run them."
         },
 
         {
