@@ -92,8 +92,6 @@ async function promptQuestions(){
 // // TODO: Create a function to initialize app
 async function init() {
         const promptedAnswers = await promptQuestions();
-    //     const generateFile = generateMarkdown(promptedAnswers)
-    //     console.log(' Successfully wrote to README.md');
     }
 
 
