@@ -2,12 +2,12 @@
 
 # Title
     
-README GEN
+jkdshagre
 
 
 ## Description
 
-A readme generator that prompts users in the command line to fill out a basic REAADME.md file. 
+hguries
 
 ## Table of Contents
 
@@ -16,32 +16,30 @@ A readme generator that prompts users in the command line to fill out a basic RE
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
-* [Questions](#questions)
+* [Contact Me](#contactMe)
 
 ## Installation
 
-download via zip file or clone project onto your computer and run "node index.js" and fill out the prompts 
+huiisotdhgrds
 
 ## Usage
 
-kdlfs;a'k
+huidrthg
 
 ## License
 
-[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)]
-
-Open
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]
+<br />
+https://opensource.org/licenses/Apache-2.0
 
 ## Contributing
 
-undefined
+ikduhfgdrg
 
 ## Contact Me
 
-undefined
 <br />
+Check out my GitHub: [huidtfgh](https://github.com/huidtfgh)<br />
 <br />
-Check out my GitHub: [GinleyP87](https://github.com/GinleyP87)<br />
-<br />
-Email me: patignleyjr@gmail.com
+Email me: iuudifgh
 

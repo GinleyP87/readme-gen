@@ -51,13 +51,6 @@ async function promptQuestions(){
 
         {
             type: "input",
-            name: "questions",
-            message: "What do I do if I have a problem? "
-            
-        },
-
-        {
-            type: "input",
             name: "username",
             message: "Please enter your GitHub username. "
         },

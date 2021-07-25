@@ -25,7 +25,7 @@ function generateMarkdown(data) {
   let badge
   if 
     (data.license === "MIT"){
-      badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+      badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]"
   } else if 
       (data.license === "Mozilla"){
     badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]"
@@ -34,24 +34,24 @@ function generateMarkdown(data) {
       badge = "[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)]"
   } else if
     (data.license === "Apache"){
-      badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+      badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]"
   } else {
       badge = "";
   }
 
   let badgeLink
   if 
+    (data.license === "Apache"){
+      badgeLink = "https://opensource.org/licenses/Apache-2.0"
+  } else if
     (data.license === "MIT"){
-      badgeLink = ""
+      badgeLink = "https://opensource.org/licenses/MIT"
   } else if 
     (data.license === "Mozilla"){
-      badgeLink = "(https://opensource.org/licenses/MPL-2.0)"
+      badgeLink = "https://opensource.org/licenses/MPL-2.0"
   } else if
     (data.license === "Open"){
-      badgeLink = "(https://opendatacommons.org/licenses/by/)"
-  } else if
-  (data.license === "Apache"){
-      badgeLink = ""
+      badgeLink = "https://opendatacommons.org/licenses/by/"
   } else {
     badgeLink = "";
   }
@@ -87,18 +87,15 @@ ${data.usage}
 ## License
 
 ${badge}
+<br />
 ${badgeLink}
-
-${data.license}
 
 ## Contributing
 
-${data.contributing}
+${data.credits}
 
 ## Contact Me
 
-${data.contactMe}
-<br />
 <br />
 Check out my GitHub: [${data.username}](https://github.com/${data.username})<br />
 <br />
