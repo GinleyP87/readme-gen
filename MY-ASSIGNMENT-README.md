@@ -12,7 +12,6 @@ This is a readme generator created with javascript and utilized through the comm
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
-* [Tests](#tests)
 * [Contact Me](#contactMe)
 
 ## Installation
@@ -20,7 +19,7 @@ Go to GitHub and download the zip file or clone the files from the repo. This ap
 
 ## Usage
 
-![readme-example](./Develop/assets/images/readme-example.gif)
+![readme-example](./assets/images/readme-example.gif)
 
 ## License
 n/a
