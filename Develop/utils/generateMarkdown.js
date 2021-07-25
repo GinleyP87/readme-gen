@@ -76,6 +76,7 @@ ${data.description}
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
+* [Tests](#tests)
 * [Contact Me](#contactMe)
 
 <br />

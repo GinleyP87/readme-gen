@@ -2,15 +2,14 @@
 
 # Title
     
-jksdhfs
-<br />
+README Generator
 <br />
 
 ## Description
 
-jkshdfg
+This is a readme generator created with javascript and utilized through the command window with node.js. When initialized the user will be prompted to answer questions that will automatically fill out and generate the README.md file.
 <br />
-<br />
+
 
 ## Table of Contents
 
@@ -19,44 +18,43 @@ jkshdfg
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
+* [Tests](#tests)
 * [Contact Me](#contactMe)
 
 <br />
 
+
 ## Installation
 
-kjsdfg
+Go to GitHub and download the zip file or clone the files from the repo. This application requires "Inquirer" and "fs." Type "node index.js" to prompt the questions.
 
 <br />
-<br />
+
 ## Usage
 
-kjsdfg
+add image or video here
 
 <br />
-<br />
+
 
 ## License
 
-[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)]
-<br />
-https://opendatacommons.org/licenses/by/
 
 <br />
+
+
 <br />
 
 ## Contributing
 
-djkfgd
+GinleyP87
 
-<br />
 <br />
 
 ## Tests
 
-kdfg
+n/a
 
-<br />
 <br />
 
 ## Questions
@@ -64,6 +62,6 @@ kdfg
 If you have any questions...
 <br />
 <br />
-Check out my GitHub: [ikdfgdght](https://github.com/ikdfgdght)<br />
-E-mail me: jkdgjmdg
+Check out my GitHub: [GinleyP87](https://github.com/GinleyP87)<br />
+E-mail me: patginleyjr@gmail.com
 
